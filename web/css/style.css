@@ -1,0 +1,2056 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+*,
+::after,
+::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --font:Arial, Helvetica, sans-serif;
+}
+/* Top header section */
+.web-heading {
+  font-size: 3rem;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-family:var(--font);
+  color: #000a65;
+  text-decoration: none;
+}
+
+.customer-care {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: var(--font);
+  color: #000a65;
+}
+.custom-border {
+  border-bottom: 2px solid #000a65;
+}
+.relo {
+  color: #000a65;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: var(--font);
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.relo:hover {
+  background-color: #fff;
+  color: #149a9b;
+}
+
+/* top header end */
+/* navbar start */
+.nav-container {
+  border-top: 2px solid #149a9b;
+  border-bottom: 2px solid #149a9b;
+  margin: 5px 0px 0px 0px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: var(--font);
+  font-weight: bold;
+  color: #000a65 !important;
+  padding: 0px;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: #149a9b !important;
+}
+.user-name {
+  padding-left: 2rem;
+  color: #000a65;
+  font-size: 2rem;
+  font-family: var(--font);
+  font-weight: bold;
+}
+.nurse-login {
+  font-size: 2rem;
+  font-family: var(--font);
+  font-weight: bold;
+  color: #000a65;
+  text-align: center;
+}
+/* navbar end */
+/* carousel part start */
+.carousel-item img {
+  min-height: calc(100vh - 180px);
+}
+/* carousel part end */
+/* info part start */
+.information {
+  margin-top: 15px;
+}
+
+.info-img img {
+  width: 100%;
+  height: 100%;
+}
+.sub-heading {
+  position: absolute;
+  left: 50%;
+  top: 8%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-weight: bold;
+}
+.notice-text {
+  margin-top: 1rem;
+  position: absolute;
+  top: 15%;
+  font-size: 1.1rem;
+  left: 10%;
+  right: 10%;
+  color: #000a65 !important;
+  font-weight: bold;
+  font-family: var(--font);
+}
+.information {
+  margin: 15px 0px 0px 0px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font);
+}
+
+/* info part end  */
+.neon {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #2196f3;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2rem;
+  overflow: hidden;
+  transition: 0.2s;
+  text-align: center;
+  align-items: center;
+}
+.neon:hover {
+  color: #000a65;
+  background: #add8e6;
+  box-shadow: 0 0 5px #add8e6, 0 0 20px #add8e6, 0 0 20px #add8e6;
+  transition-delay: 1.2s;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.neon span {
+  position: absolute;
+  display: block;
+}
+
+.neon span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #2196f3);
+}
+
+.neon:hover span:nth-child(1) {
+  left: 100%;
+  transition: 1s;
+}
+.no-transfer-img{
+    width: 100% !important;
+}
+.neon span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #2196f3);
+}
+
+.neon:hover span:nth-child(3) {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+.neon span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #2196f3);
+}
+
+.neon:hover span:nth-child(2) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+.neon span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #2196f3);
+}
+
+.neon:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+.info-img {
+  width: 100% !important;
+  margin-top: 25px;
+  position: relative;
+}
+
+.info-img img {
+  border-radius: 10px;
+}
+/* quote part start */
+.quote-img {
+  width: 100% !important;
+  margin-top: 5px;
+  border: none;
+}
+/* quote part end */
+/* feedback form start */
+
+.feedback-img {
+  margin: 0;
+  padding: 0px;
+  width: 100% !important;
+  background-color: #b7b7b7;
+}
+.heading h2 {
+  margin: 15px 0px 0px 0px;
+  font-weight: 600;
+  font-size: 3rem;
+  font-family: var(--font);
+  color: #000a65;
+}
+.formitem {
+  margin: 0px;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.feedback-button {
+  background-color: transparent;
+  border: 3px solid black;
+  color: black;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  left: 45%;
+  margin: 15px 0px;
+  padding: 10px 30px;
+  font-size: 1.5rem;
+}
+.form-control {
+  width: 80%;
+}
+.feedback-button:hover {
+  background-color: #000a65;
+  color: white;
+  border: 2px solid #000a65;
+}
+.feedbackform {
+  margin-top: 10px;
+}
+
+.feed {
+  background-color: #b7b7b7;
+  padding: 0px;
+}
+.feed-form {
+  margin: 15px 0px 0px 0px;
+}
+/* feedback form end */
+/* rating */
+
+.rating-wrap {
+  max-width: 480px;
+  margin: auto;
+  padding: 10px;
+  align-items: left;
+}
+
+.center {
+  width: 262px;
+  margin: auto;
+}
+
+#rating-value {
+  width: 110px;
+  /* margin: 40px auto 0; */
+  /* padding: 10px 5px; */
+  text-align: center;
+}
+
+.rating {
+  border: none;
+  float: left;
+}
+
+.rating > input {
+  display: none;
+}
+
+.rating > label:before {
+  content: "\f005";
+  font-family: FontAwesome;
+  margin-left: 10px;
+  font-size: 2rem;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+  cursor: pointer;
+}
+
+.rating > label {
+  color: #ddd;
+  float: right;
+  cursor: pointer;
+}
+
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #ffd700;
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label {
+  color: #ffd700;
+}
+
+/* rating end */
+/* website information end */
+/* footer start */
+.footer {
+  margin-top: 10px;
+  background-color: #000;
+  height: auto;
+}
+.nurse-part {
+  margin: 0rem !important;
+}
+.footer-contact {
+  padding-top: 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: var(--font);
+  cursor: pointer;
+}
+.footer-email {
+  padding-top: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: var(--font);
+  cursor: pointer;
+}
+.footer-email a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-call {
+  padding-top: 0.5rem;
+  text-align: center;
+  font-size: 1.3em;
+  color: #fff;
+  font-family: var(--font);
+  cursor: pointer;
+}
+.footer-call a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-fos {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  font-family: var(--font);
+}
+.footer-logo {
+  padding-top: 0.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #fff;
+}
+.fal {
+  border: 2px solid #000;
+  padding: 10px;
+  border-radius: 50%;
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
+}
+.fal:hover {
+  background-color: #55acee;
+  color: white;
+  transform: rotate(0deg) skew(0deg) translate(0, -5px);
+}
+.fab {
+  border: 2px solid #000;
+  padding: 10px 15px;
+  border-radius: 50%;
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
+}
+.fab:hover {
+  background-color: #3b5999;
+  color: white;
+  transform: rotate(0deg) skew(0deg) translate(0, -5px);
+}
+.ins {
+  border: 2px solid #000;
+  padding: 10px;
+  border-radius: 50%;
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
+}
+.ins:hover {
+  background-color: #e4405f;
+  color: white;
+  transform: rotate(0deg) skew(0deg) translate(0, -5px);
+}
+.quick {
+  padding-top: 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.imp-links {
+  text-align: center;
+  list-style-type: none;
+}
+.imp-links-item {
+  padding-top: 0.5rem;
+}
+.imp-links-item a {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.mapss {
+  height: 300px;
+  width: 100%;
+}
+.copyborder {
+  border-top: 1px solid white;
+}
+.copyrights {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+.mapss {
+  height: 45vh;
+  width: 100% !important;
+}
+/* footer end  */
+/* login page start */
+.Loginclass {
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--font);
+  color: #000a65;
+  margin-bottom: 3rem;
+}
+.login-form-img {
+  width: 100% !important;
+  height: 80vh;
+}
+.login-form-textplace {
+  margin-top: 10rem;
+  align-items: center;
+}
+.form-text {
+  text-align: left;
+  font-size: 1.5rem;
+  color: #000a65;
+  font-weight: bold;
+}
+.form-textplace {
+  margin-top: 0.5rem;
+  border-radius: 15px;
+  border: 2px solid #000a65;
+}
+.lbtn {
+  text-align: center;
+  align-items: center;
+}
+.login-button-size {
+  text-align: center;
+}
+.login-button {
+  padding: 8px 30px;
+  align-items: center;
+  background-color: #fff;
+  color: #000a65;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 2px solid #000a65;
+  border-radius: 10px;
+}
+.login-button:hover {
+  background-color: #149a9b;
+  color: #fff;
+  border: none;
+}
+.login-end-png-img {
+  width: 100% !important;
+  opacity: 50%;
+}
+.register_here {
+  margin-left: 8rem;
+}
+/* login page end */
+/* About us page  */
+.about-us-img {
+  width: 100% !important;
+}
+.what-we-do {
+  margin-top: 15px;
+}
+.about-us-flex {
+  margin-top: 15px;
+}
+.what-we-do-heading {
+  text-align: left;
+  color: #000a65;
+  font-size: 4rem;
+  font-family: var(--font);
+  text-decoration: underline;
+}
+.what-we-do-text {
+  padding-top: 2rem;
+  text-align: left;
+  color: #000;
+  font-size: 1.8rem;
+  font-family: var(--font);
+}
+.auf-img img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.service-provide {
+  margin-top: 15px;
+}
+.service-heading {
+  padding-left: 4rem;
+  color: #000a65;
+  font-size: 4rem;
+}
+
+.service-list {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  color: #000a65;
+  font-family: var(--font);
+  font-weight: bold;
+}
+.point {
+  padding-top: 1.5rem;
+  padding-left: 3rem;
+  font-size: 3rem;
+  text-align: left;
+}
+/* About us page end */
+/* blog part */
+.blog-banner-image {
+  width: 100%;
+}
+.tips-part {
+  margin-top: 2rem;
+}
+.health-tips {
+  text-align: center;
+  font-size: 3rem;
+  color: #000a65;
+  font-weight: bold;
+  font-family: var(--font);
+}
+/* blog part end */
+/* blog tips Start */
+.blog-tips-section {
+  margin-top: 2rem;
+}
+.tipspart_1 {
+  border: 2px solid #808080;
+  box-shadow: 10px 5px 5px #d3d3d3;
+}
+
+.tips-image {
+  padding-top: 15px;
+  width: 100% !important;
+}
+.tips-head {
+  padding-top: 15px;
+  font-size: 2rem;
+  font-family: var(--font);
+  text-align: center;
+  color: #000a65;
+  font-weight: 550;
+}
+.tips-body-text {
+  padding: 15px 15px 15px 15px;
+  font-size: 1.1rem;
+  font-family: var(--font);
+  text-align: center;
+  color: #888888;
+  font-weight: 550;
+}
+/* Blog tips end */
+/* opd banner */
+.opd-img {
+  width: 100% !important;
+}
+.opd-heading {
+  margin-top: 1.5rem;
+}
+.opd-heading-part {
+  text-align: center;
+  align-items: center;
+  font-size: 3rem;
+  color: #000a65;
+  font-weight: 550;
+}
+.section_name {
+  margin-top: 2rem;
+  background-color: #dcdcdc;
+}
+.swap-parent {
+  position: relative;
+}
+/* Select the image and make it absolute to the container */
+.swap-on-hover img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  /* Sets the width and height for the images*/
+}
+.swap-on-hover .swap-on-hover__front-image {
+  z-index: 9999;
+  transition: opacity 0.5s linear;
+  cursor: pointer;
+}
+
+.swap-on-hover:hover > .swap-on-hover__front-image {
+  opacity: 0;
+}
+
+.swap-on-hover {
+  position: relative;
+  width: auto;
+  height: 170px;
+  margin: 5px;
+}
+.section_name {
+  padding: 30px 0px;
+}
+.opd-list-heading {
+  padding-top: 1rem;
+  text-align: center;
+  color: #000a65;
+  font-size: 1.5rem;
+  font-family: var(--font);
+  font-weight: 550;
+}
+/* Opd banner end */
+/* User login banner start */
+.user-login-banner {
+  width: 100% !important;
+}
+.patient-status-sec {
+  text-align: center !important;
+}
+.patient-status {
+  margin-top: 2rem;
+}
+.patient-status-heading a {
+  text-align: center;
+  color: #fff;
+  font-family: var(--font);
+  font-size: 2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #000a65;
+  padding: 8px 24px;
+  border: 1px solid #000a65;
+}
+.patient-status-heading a:hover {
+  border: 1px solid #000a65;
+  background-color: #fff;
+  color: #000a65;
+  border-radius: 10px;
+}
+.buttom-row {
+  margin-bottom: 1rem;
+}
+/* User login banner end */
+/* blood page css */
+.blood-banner-img {
+  width: 100% !important;
+}
+.blood-category {
+  margin-top: 1.2rem;
+}
+.blood-available {
+  text-align: center;
+  color: #000a65;
+  font-size: 2rem;
+  font-family: var(--font);
+  font-weight: bold;
+}
+/* blood page css end */
+/* Nurse page css start */
+.nurse-patient-status-text {
+  font-size: 3rem;
+  font-family: var(--font);
+  font-weight: bold;
+  color: #000a65;
+  text-align: left;
+  align-items: center;
+  padding-top: 8rem;
+}
+.update-btn {
+  background-color: #000a65;
+  padding: 15px 40px;
+  margin-left: 8rem;
+  margin-top: 1rem;
+  font-family: var(--font);
+  border: 2px solid #000a65;
+}
+.update-btn:hover {
+  background-color: #fff;
+  color: #000a65;
+  border: 2px solid #000a65;
+  font-family: var(--font);
+  font-weight: bold;
+}
+.nurse-blood-request-text {
+  font-size: 3rem;
+  font-family: var(--font);
+  font-weight: bold;
+  color: #000a65;
+  text-align: right;
+  align-items: center;
+  padding-top: 12rem;
+  padding-right: 7rem;
+}
+.request-btn {
+  background-color: #000a65;
+  padding: 15px 40px;
+  margin-left: 25rem;
+  margin-top: 1rem;
+  font-family: var(--font);
+  border: 2px solid #000a65;
+  float: right;
+  margin-right: 15rem;
+  align-items: center;
+}
+.request-btn:hover {
+  background-color: #fff;
+  color: #000a65;
+  border: 2px solid #000a65;
+  font-family: var(--font);
+  font-weight: bold;
+}
+/* Nurse page css end */
+/* register page start */
+.registerclass {
+  text-align: center;
+  align-items: center;
+  padding: 1rem 0rem 0rem 0rem;
+  color: #000a65;
+  font-family: var(--font);
+  font-weight: bold;
+}
+.col-form-label {
+  text-align: center;
+  color: #000a65;
+  font-size: 1.2rem;
+  font-weight: bold;
+  float: left;
+  text-align: left;
+}
+.form-control {
+  margin-top: 0.5rem;
+  border-radius: 15px;
+  border: 1.8px solid #000a65;
+}
+.form-check-label {
+  text-align: center;
+  align-items: center;
+}
+.sub {
+  align-items: center;
+  text-align: center;
+  font-size: 1.4rem;
+  background-color: #149a9b;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 1rem;
+  border: none;
+}
+.sub:hover {
+  background-color: #000a65;
+  color: #fff;
+}
+.res {
+  align-items: center;
+  text-align: center;
+  font-size: 1.4rem;
+  background-color: red;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+}
+.res:hover {
+  background-color: #000a65;
+  color: #fff;
+}
+.ahaa {
+  padding-top: 1rem;
+  color: #000;
+  font-size: 1.2rem;
+}
+.log a {
+  font-size: 0.9rem;
+  color: #000a65;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* Bed status css start */
+.bed-img {
+  width: 100% !important;
+}
+.bed-status-text {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #000a65;
+  font-weight: bolder;
+}
+.bed-status-container {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+.h-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000a65;
+}
+.hospital-name {
+  font-size: 2rem;
+  color: #000a65;
+  font-family: var(--font);
+  font-weight: 550;
+}
+.hp-icon {
+  height: 8vh;
+}
+.co-icon {
+  height: 6vh;
+}
+.hospital-address {
+  font-size: 1.6rem;
+  color: #000;
+}
+.total_bed_count {
+  font-size: 2rem;
+  color: #000a65;
+  font-weight: 600;
+  font-family: var(--font);
+}
+.total-count {
+  font-size: 1.6rem;
+  color: #000;
+}
+.Blood-Group {
+  padding: 2px 30px 2px 30px !important;
+  border: 2px solid;
+  border-color: #000a65;
+  border-radius: 12px;
+}
+.total_available_count {
+  font-size: 1.6rem;
+  color: #149a9b;
+}
+/* Bed status css end */
+/* Blood page css start */
+
+.blood-bnr {
+  width: 100% !important;
+}
+.blood-frm {
+  margin-top: 3rem;
+}
+.blood-request-form {
+  background-image: url(../images/blood-form-background.jpg);
+  height: 40vh;
+  margin-top: 3rem;
+}
+.ptr {
+  height: auto !important;
+}
+.blood-form-text {
+  text-align: center;
+  align-items: center;
+  color: #000a65;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.bd-btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #000a65;
+  border: none;
+}
+.bd-btn:hover {
+  background-color: #149a9b;
+}
+.bld-req-btn {
+  margin-top: 2rem;
+  padding: 10px 25px;
+  color: #fff;
+  background-color: #000a65;
+  font-size: 1.2rem;
+  border: 2px solid #000a65;
+  border-radius: 10px;
+}
+.bld-req-btn:hover {
+  background-color: #fff;
+  border: 2px solid #000a65;
+  color: #000a65;
+}
+/* Blood page css end */
+/* Doctor panel css start */
+.doc-text {
+  margin-top: 1rem;
+  text-align: center;
+  color: #000a65;
+  font-weight: bold;
+  font-family: var(--font);
+  font-size: 2.5rem;
+}
+.doc-btn {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  padding: 15px 30px;
+  background-color: #fff;
+  border: 2px solid #000a65;
+  color: #000a65;
+  font-size: 1.5rem;
+  border-radius: 25px;
+}
+.doc-btn:hover {
+  background-color: #000a65;
+  color: #fff;
+  border: 2px solid #000a65;
+}
+.prescription-part {
+  margin: 2rem;
+  padding: 20px;
+  border: 2px solid #000a65;
+}
+.patient-part {
+  margin: 2rem;
+  padding: 20px;
+  border: 2px solid #000a65;
+}
+.pres-text {
+  margin-left: 1rem;
+  padding: 0px 0px;
+  border: none;
+  border-bottom: 2px solid #000a65;
+}
+.pres-head {
+  text-align: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #000a65;
+  font-family: var(--font);
+  font-weight: bold;
+}
+.obsr-text {
+  font-size: 2.5rem;
+  color: #000a65;
+  font-family: var(--font);
+  font-weight: bold;
+}
+.obco {
+  padding-top: 7rem;
+}
+.observation-container {
+  margin-top: 1rem;
+}
+.obc {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #000a65;
+  font-family: var(--font);
+}
+.obc-text {
+  margin-top: 0.2rem;
+  border: 2px solid #000a65;
+}
+.prescription {
+  margin-top: 1rem;
+}
+.prescription-text {
+  font-size: 2.5rem;
+  font-family: var(--font);
+  font-weight: bold;
+  color: #000a65;
+}
+.prescription-text-add {
+  text-align: center;
+  border: none;
+  width: 100%;
+}
+
+.prescription-table {
+  margin-top: 1rem;
+}
+.p-table {
+  margin: 2rem;
+}
+.tbl-head {
+  border: 2px solid #000a65 !important;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 20px 0px !important;
+  color: #000a65;
+  font-family: var(--font);
+  font-weight: bold;
+}
+
+.diagonostic-text {
+  font-size: 2.5rem;
+  color: #000a65;
+  font-family: var(--font);
+  font-weight: bold;
+}
+.doctor-button {
+  margin-top: 1rem;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  background-color: #000a65;
+  border-radius: 7px;
+  border: 1px solid #000a65;
+}
+.doctor-button:hover {
+  background-color: #149a9b;
+  border: 1px solid #149a9b;
+}
+.blank-space {
+  margin-top: 2rem;
+}
+.chkbx {
+  padding: 2rem;
+}
+.obc-big-text {
+  padding: 5rem 8rem;
+  border: 2px solid #000a65;
+}
+/* Doctor panel end */
+/* Gallery part start */
+.gallery-text {
+  align-items: center;
+  font-size: 2rem;
+  font-family: var(--font);
+  color: #000a65;
+  font-weight: bold;
+}
+/* Gallery part end */
+/* ADMIN PAGE CSS */
+.admin-text {
+  margin-top: 2rem;
+}
+.admin-txt {
+  font-size: 2.5rem;
+  font-family: var(--font);
+  color: #000a65;
+  font-weight: bold;
+}
+/* ADMIN PAGE CSS END */
+/* add-employee page css */
+.doctor-add {
+  margin-top: 2rem;
+}
+.add-doctor {
+  font-size: 2rem;
+  color: #000a65;
+  font-family: var(--font);
+  border-bottom: 3px solid #000a65;
+  padding: 5px 20px;
+  font-weight: bold;
+}
+.doctor-add-form {
+  margin-top: 2rem;
+}
+.doc-frm {
+  background-image: url(../images/add-doc-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #000a65;
+  padding: 3rem 0rem 0rem 3rem;
+}
+.nurse {
+  background-image: url(../images/add-nurse-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.doc-label {
+  font-size: 1.5rem;
+  font-family: var(--font);
+  font-weight: 550;
+  color: #000a65;
+}
+.doc-in {
+  width: 100% !important;
+  border: none;
+  border-bottom: 2px solid #000a65;
+  background-color: transparent;
+}
+.doc-add-btn {
+  padding: 5px 30px;
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: #000a65;
+  border: #000a65;
+}
+.doc-add-btn:hover {
+  background-color: #149a9b;
+  color: #fff;
+}
+/* add employee page css end */
+/* remove employee css  */
+.remove-doc-part {
+  margin-top: 2rem;
+}
+.remove-emp {
+  font-size: 1.5rem;
+  color: #000a65;
+  font-family: var(--font);
+  margin-right: 2rem;
+}
+.remove-emp-txt-plc {
+  padding: 5px 15px !important;
+  border: 2px solid #000a65;
+}
+.remove-button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  border: 1px solid #000a65;
+  background-color: #000a65;
+  color: #fff;
+}
+.remove-button:hover {
+  background-color: #149a9b;
+  color: #fff;
+  border: 1px solid #149a9b;
+}
+.remove-text-container {
+  margin-top: 8rem;
+}
+/* remove employee css end  */
+/* Notice publish add area */
+.notice-publish-area {
+  margin-top: 2rem;
+}
+.notice-publish-text {
+  padding: 40px 60px;
+  border: 2px solid #000a65;
+  border-radius: 10px;
+}
+.notice-btn {
+  margin-top: 2rem;
+  padding: 15px 25px;
+  color: #fff;
+  background-color: #000a65;
+  border: 1px solid #000a65;
+  font-size: 1rem;
+}
+.notice-btn:hover {
+  background-color: #149a9b;
+  border: 1px solid #149a9b;
+}
+.notice-container {
+  padding-top: 5rem;
+}
+/* Notice publish css end */
+/* patient-status css start */
+.patient-status-img {
+  background-image: url(../images/patient-status-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 130vh;
+}
+.potext {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #000a65;
+  font-weight: bold;
+}
+.pobox {
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  border-bottom: 2px solid #000a65;
+  padding: 0px 50px;
+  width: 50%;
+  color: #000a65;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.patient-status-con {
+  margin-top: 6rem;
+}
+.patient-obs {
+  color: #000a65;
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-left: 12rem;
+}
+.nurse-ptnt-btn {
+  color: #fff;
+  background-color: #000a65;
+  font-size: 1.2rem;
+  padding: 5px 15px;
+  float: right;
+  border: 1px solid #000a65;
+}
+
+/* patient status css end */
+/* upadte patient status css */
+.update-patient-container {
+  margin-top: 3rem;
+}
+.pat-up {
+  float: left;
+}
+.obc-text-upd {
+  border: none;
+  border-bottom: 2px solid #000a65;
+}
+.upd-ptn {
+  padding-top: 2rem;
+}
+.fetch-bed-button {
+  padding: 5px 5px;
+  font-size: 0.8rem;
+  background-color: #000a65;
+  border-radius: 3px;
+  border: 1px solid #000a65;
+}
+.fetch-bed-button:hover {
+  background-color: #149a9b;
+  border: 1px solid #149a9b;
+}
+/* update patient status css end */
+/* doctor details area part css */
+.doctor-details-area {
+  background-image: url(../images/doc-type-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+.doc-trns {
+  height: auto;
+}
+.accept-btn:hover {
+  background-color: green;
+}
+.decline-btn:hover {
+  background-color: red;
+}
+.doctor-details-view-part {
+  width: 100%;
+}
+.nurse-view-image {
+  height: 60vh !important;
+}
+/* doctor details area part css end  */
+/* view employee page css */
+.search-employee-button {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.view-emp-btn {
+  padding: 16px 32px;
+  background-color: #000a65;
+  font-size: 1.5rem;
+  border: 1px solid #000a65;
+  border-radius: 0;
+  font-family: var(--font);
+}
+.view-emp-btn:hover {
+  border: 1px solid #149a9b;
+  background-color: #149a9b;
+}
+.src-employee {
+  padding: 21px 32px;
+  border: 2px solid #000a65;
+}
+input::placeholder {
+  font-size: 1rem;
+}
+.view-item-doctor {
+  height: 30px;
+  width: 100%;
+  border: 2px solid #000a65;
+  border-radius: 10px;
+  background-color: #fff;
+  font-weight: bold;
+  color: #000a65;
+  text-align: center;
+}
+.doctor-details-view-part {
+  margin-top: 2rem;
+}
+.doctor-view-sec {
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+}
+.nurse-view-sec {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+/* view employee page css end */
+/* view patient page css  */
+.custom-type-box {
+  margin: 1rem 0;
+  width: 100%;
+  padding: 16px 32px;
+  border-radius: 10px;
+}
+.view-btn {
+  margin-top: 0.5rem;
+  padding: 16px 64px;
+  background-color: #000a65;
+  font-size: 1.5rem;
+  font-family: var(--font);
+  color: #fff;
+  border-radius: 10px;
+}
+.view-btn:hover {
+  background-color: #149a9b;
+  color: #fff;
+  border: 1px solid #149a9b;
+}
+/* view patient page css end */
+/* transfer request css */
+.transfer-req {
+  margin-top: 2rem;
+}
+.transfer-review {
+  padding: 20px 5px;
+  border: 0px;
+}
+/* HIDE RADIO 
+[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}*/
+
+/* IMAGE STYLES */
+[type="radio"] + img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type="radio"]:checked + img {
+  outline: 2px solid #000a65;
+}
+/* transfer req css end */
+@media only screen and (max-width: 600px) {
+  /* top header start */
+  .web-heading {
+    font-size: 1.2rem;
+    margin: 0.6rem 0rem;
+  }
+  .customer-care {
+    font-size: 1.2rem;
+  }
+  .cimg {
+    width: 15%;
+    height: auto;
+  }
+  .custom-register-border .relo {
+    border: 0px;
+  }
+  .relo {
+    font-size: 1.2rem;
+    padding: 0.2rem 0rem;
+  }
+  .nurse-login {
+    font-size: 1.2rem;
+  }
+  /* top header end */
+  /* carousel part start */
+  .carousel-item img {
+    min-height: calc(100vh - 340px);
+  }
+  /* carousel part end */
+  /* Website information Start */
+  .neon {
+    font-size: 1rem;
+  }
+  .notice-text {
+    font-size: 0.5rem;
+  }
+  /* Website information end */
+  /* Feedback  */
+  .feedback-image {
+    min-height: 500px;
+    background-image: none;
+  }
+  /* feedback start */
+  .feedbackform {
+    background-color: #b7b7b7;
+  }
+
+  .form-control {
+    width: 100%;
+    align-items: center;
+  }
+  .formitem {
+    margin: 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .feedback-button {
+    left: 35%;
+  }
+
+  /* rating start */
+  .center {
+    width: 162px;
+    margin: auto;
+  }
+  .rating > label:before {
+    font-size: 1.5rem;
+  }
+  /* rating end */
+  /* feedback end  */
+  /* login part start */
+  .login-form-textplace {
+    align-items: center;
+  }
+
+  .login-form-img {
+    background-image: none !important;
+  }
+  /* login part end */
+  /* Blog part Start */
+  .health-tips {
+    font-size: 1.5rem;
+  }
+  .tips-head {
+    font-size: 1.5rem;
+  }
+  .tips-body-text {
+    font-size: 0.8rem;
+  }
+  /* Blog part end */
+  /* opd part start */
+  .opd-heading-part {
+    font-size: 1.5rem;
+  }
+  /* opd part end */
+  /* Patient status section start */
+  .patient-status-heading a {
+    font-size: 1.5rem;
+  }
+  /* patient status section end */
+  /* Nurse page css start */
+  .nurse-patient-status-text {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 0rem;
+    padding-top: 2.5rem;
+  }
+  .update-btn {
+    padding: 8px 20px;
+    font-size: 0.8rem;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+  }
+  .nurse-blood-request-text {
+    font-size: 1.2rem;
+    margin: 0rem;
+    padding: 3rem 0rem 0rem 0rem;
+    text-align: center;
+  }
+  .request-btn {
+    padding: 8px 20px;
+    font-size: 0.8rem;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    float: none;
+  }
+  /* Nurse page css end */
+  /* Bed status css start */
+  .bed-status-text {
+    font-size: 1.5rem;
+  }
+  .h-name {
+    font-size: 2rem;
+  }
+  .hospital-name {
+    font-size: 1.2rem;
+  }
+  .hospital-address {
+    font-size: 1rem;
+  }
+  .total_bed_count {
+    font-size: 1rem;
+  }
+  .total-count {
+    font-size: 1rem;
+  }
+  .hp-icon {
+    height: 5vh;
+  }
+  .co-icon {
+    height: 4vh;
+  }
+  .h-img {
+    height: 20vh;
+  }
+  /* Bed sttaus css end */
+  /* doctor panel css  */
+  .doc-btn {
+    padding: 10px 20px;
+  }
+  .doc-text {
+    font-size: 1.5rem;
+  }
+  .obsr-text {
+    font-size: 1.5rem;
+  }
+  .doctor-button {
+    margin-top: 1rem;
+    padding: 5px 10px;
+    font-size: 0.5rem;
+    border-radius: 5px;
+  }
+  .obc-big-text {
+    padding: 2rem 3rem;
+  }
+  .pres-head {
+    font-size: 1.2rem;
+  }
+  .prescription-text {
+    font-size: 1.2rem;
+  }
+  .diagonostic-text {
+    font-size: 1.2rem;
+  }
+  .patient-status-img {
+    height: 20vh;
+  }
+  /* doctor panel css end */
+  /* add doctor page css */
+  .doc-label {
+    font-size: 1rem;
+  }
+  .doc-in {
+    width: 100%;
+    font-weight: bold !important;
+    color: #000a65 !important;
+  }
+  .input.doc-in {
+    font-weight: bold !important;
+    color: #000a65 !important;
+  }
+  .doc-add-btn {
+    margin-top: 2rem;
+  }
+  /* add doctor page end */
+  /* patient status page css */
+  .patient-status-img {
+    background: none;
+    height: 150vh;
+  }
+  .patient-status-con {
+    margin: 0rem;
+  }
+  .patient-c {
+    justify-content: center;
+    text-align: center;
+  }
+  .nurse-ptnt-btn {
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    float: none;
+  }
+  /* patient sttaus page css end */
+  /* view patient page css */
+  .view-btn {
+    padding: 8px 32px;
+    font-size: 0.5rem;
+  }
+  /* view patient page css end */
+  /* blood request form */
+  .blood-request-form {
+    background-image: none;
+  }
+  /* blood request form css end  */
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  /* top header start */
+  .web-heading {
+    font-size: 1.2rem;
+    margin: 0.6rem 0rem;
+  }
+  .cimg {
+    width: 15%;
+    height: auto;
+  }
+  .customer-care {
+    font-size: 1rem;
+  }
+  .relo {
+    font-size: 1rem;
+    padding: 0.2rem 0rem;
+  }
+  .nurse-login {
+    font-size: 1.5rem;
+  }
+  /* top header end */
+  /* carousel part start */
+  .carousel-item img {
+    min-height: calc(100vh - 120px);
+  }
+  /* carousel part end */
+  /* Website information Start */
+  .neon {
+    font-size: 1.2rem;
+  }
+  /* Website information end */
+  /* feedback start */
+  .feedback-img {
+    margin: 0;
+    padding: 0px;
+    height: 70vh;
+    width: 100% !important;
+    background-color: #b7b7b7;
+  }
+  .feedbackform {
+    background-color: #b7b7b7;
+  }
+  .heading h2 {
+    font-size: 1.3rem;
+  }
+  .feedback-button {
+    left: 40%;
+  }
+  .form-control {
+    width: 100%;
+  }
+  .feedback-button {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 45%;
+    margin: 5px 0px;
+  }
+  .heading h2 {
+    padding-left: 38px;
+  }
+  /* feedback end */
+  /* login part start */
+  .login-form-textplace {
+    margin-top: 5rem;
+    align-items: center;
+  }
+  .form-text {
+    text-align: left;
+    font-size: 0.8rem;
+    color: #000a65;
+    font-weight: bold;
+  }
+  .login-button {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+  }
+  /* login part end */
+  /* Patient status section start */
+  .patient-status-heading a {
+    font-size: 1.5rem;
+  }
+  /* patient status section end */
+  /* Nurse page css start */
+  .nurse-patient-status-text {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 0rem;
+    padding-top: 2.5rem;
+  }
+  .update-btn {
+    padding: 8px 20px;
+    font-size: 0.8rem;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+  }
+  .nurse-blood-request-text {
+    font-size: 1.2rem;
+    margin: 0rem;
+    padding: 3rem 0rem 0rem 0rem;
+    text-align: center;
+  }
+  .request-btn {
+    padding: 8px 20px;
+    font-size: 0.8rem;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    float: none;
+  }
+  /* Nurse page css end */
+  /* Bed status css start */
+  .bed-status-text {
+    font-size: 1.5rem;
+  }
+  .h-name {
+    font-size: 2rem;
+  }
+  .hospital-name {
+    font-size: 1.2rem;
+  }
+  .hospital-address {
+    font-size: 1rem;
+  }
+  .total_bed_count {
+    font-size: 1rem;
+  }
+  .total-count {
+    font-size: 1rem;
+  }
+  .hp-icon {
+    height: 5vh;
+  }
+  .co-icon {
+    height: 4vh;
+  }
+  /* Bed sttaus css end */
+  /* doctor panel css  */
+  .doc-btn {
+    padding: 10px 20px;
+  }
+  .doc-text {
+    font-size: 1.5rem;
+  }
+  .obsr-text {
+    font-size: 1.5rem;
+  }
+  .doctor-button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  .obc-big-text {
+    padding: 2rem 3rem;
+  }
+  .pres-head {
+    font-size: 1.2rem;
+  }
+  .prescription-text {
+    font-size: 1.2rem;
+  }
+  .diagonostic-text {
+    font-size: 1.2rem;
+  }
+  .patient-status-img {
+    height: 30vh;
+  }
+  /* doctor panel css end */
+  /* patient status page css */
+  .patient-status-img {
+    background: none;
+    height: 150vh;
+  }
+  .patient-status-con {
+    margin: 0rem;
+  }
+  .patient-c {
+    justify-content: center;
+    text-align: center;
+  }
+  /* patient sttaus page css end */
+  /* view patient page css */
+  .view-btn {
+    padding: 8px 32px;
+    font-size: 0.5rem;
+  }
+  /* view patient page css end */
+}
+
+@media screen and (min-width: 768px) and (max-width: 968px) {
+  /* top header start */
+  .web-heading {
+    font-size: 1.1rem;
+    margin: 0.6rem 0rem;
+  }
+  .cimg {
+    width: 15%;
+    height: auto;
+  }
+  .customer-care {
+    font-size: 1rem;
+  }
+  .relo {
+    font-size: 1rem;
+    padding: 0.2rem 0rem;
+  }
+  /* top header end */
+  /* carousel part start */
+  .carousel-item img {
+    min-height: calc(100vh - 120px);
+  }
+  /* carousel part end */
+  /* feedback start */
+  .feedbackform {
+    background-color: #b7b7b7;
+  }
+  /* feedback end  */
+  /* login part start */
+  .login-form-textplace {
+    margin-top: 5rem;
+    align-items: center;
+  }
+  .form-text {
+    text-align: left;
+    font-size: 0.8rem;
+    color: #000a65;
+    font-weight: bold;
+  }
+  .login-button {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+  }
+  /* login part end */
+  /* Patient status section start */
+  .patient-status-heading a {
+    font-size: 2rem;
+  }
+  /* patient status section end */
+  /* Nurse page css start */
+  .nurse-patient-status-text {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 0rem;
+    padding-top: 5rem;
+  }
+  .update-btn {
+    padding: 12px 25px;
+    font-size: 0.8rem;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+  }
+  .nurse-blood-request-text {
+    font-size: 1.8rem;
+    margin: 0rem;
+    padding: 3rem 0rem 0rem 0rem;
+    text-align: center;
+  }
+  .request-btn {
+    padding: 12px 25px;
+    font-size: 0.8rem;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    float: none;
+  }
+  /* Nurse page css end */
+  /* Bed status css start */
+  .bed-status-text {
+    font-size: 2rem;
+  }
+  .h-name {
+    font-size: 2.2rem;
+  }
+  .hospital-name {
+    font-size: 1.6rem;
+  }
+  .hospital-address {
+    font-size: 1.5rem;
+  }
+  .total_bed_count {
+    font-size: 1.5rem;
+  }
+  .total-count {
+    font-size: 1.5rem;
+  }
+  .hp-icon {
+    height: 7vh;
+  }
+  .co-icon {
+    height: 5vh;
+  }
+  /* Bed sttaus css end */
+  /* doctor panel css  */
+  .doc-btn {
+    padding: 10px 20px;
+  }
+  .doc-text {
+    font-size: 1.8rem;
+  }
+  .obsr-text {
+    font-size: 1.8rem;
+  }
+  .doctor-button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  .obc-big-text {
+    padding: 2rem 3rem;
+  }
+  .pres-head {
+    font-size: 1.8rem;
+  }
+  .prescription-text {
+    font-size: 1.8rem;
+  }
+  .diagonostic-text {
+    font-size: 1.8rem;
+  }
+  /* doctor panel css end */
+  /* view patient page css */
+  .view-btn {
+    padding: 16px 32px;
+    font-size: 1rem;
+  }
+  /* view patient page css end */
+}
+
+@media screen and (min-width: 968px) and (max-width: 1500px) {
+  /* top header part */
+  .web-heading {
+    font-size: 2.5rem;
+    margin: 0.6rem 0rem;
+  }
+  /* top header end */
+  /* feedback start */
+  .feedbackform {
+    background-color: #b7b7b7;
+  }
+  /* feedback end  */
+  /* login part start */
+  .login-form-textplace {
+    margin-top: 13rem;
+    align-items: center;
+  }
+  .form-text {
+    text-align: left;
+    font-size: 1rem;
+    color: #000a65;
+    font-weight: bold;
+  }
+  .login-button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+  }
+  /* login part end */
+  /* Patient status section start */
+  .patient-status-heading a {
+    font-size: 2rem;
+  }
+  /* patient status section end */
+  /* Nurse page css start */
+  .nurse-patient-status-text {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 0rem;
+    padding-top: 5rem;
+  }
+  .update-btn {
+    padding: 12px 25px;
+    font-size: 0.8rem;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+  }
+  .nurse-blood-request-text {
+    font-size: 1.8rem;
+    margin: 0rem;
+    padding: 3rem 0rem 0rem 0rem;
+    text-align: center;
+  }
+  .request-btn {
+    padding: 12px 25px;
+    font-size: 0.8rem;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    float: none;
+  }
+  /* Nurse page css end */
+  /* patient status page css */
+  .patient-status-img {
+    height: 180vh;
+  }
+
+  /* patient sttaus page css end */
+  .no-transfer
+  {
+     width: 100% !important;
+  }
+}
